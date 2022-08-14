@@ -26,10 +26,8 @@ async def start(client,message):
 	insert(int(message.chat.id))
 	await message.reply_text(text =f"""
 	{wish} {message.from_user.mention}
-	__I am file renamer bot,
-     Please sent any telegram 
-	**Document Or Video** 
-     And enter new filename to rename it__
+
+	__𝙸 𝚊𝚖 𝚊 𝚏𝚒𝚕𝚎 𝚁𝚎𝚗𝚊𝚖𝚎𝚛 𝚋𝚘𝚝,𝚂𝚎𝚗𝚝 𝚖𝚎 𝚊𝚗𝚢 𝙳𝚘𝚌𝚞𝚖𝚎𝚗𝚝 𝚘𝚛 𝚟𝚒𝚍𝚎𝚘 𝚊𝚗𝚍 𝚎𝚗𝚝𝚎𝚛 𝚗𝚎𝚠 𝚏𝚒𝚕𝚎𝚗𝚊𝚖𝚎 𝚝𝚘 𝚛𝚎𝚗𝚊𝚖𝚎 𝚒𝚝__
 	""",reply_to_message_id = message.message_id ,  
 	reply_markup=InlineKeyboardMarkup(
 	 [[ InlineKeyboardButton("🍿 Update channel" ,url="https://t.me/MC_Moviescafe") ], 
