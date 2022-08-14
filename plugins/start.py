@@ -23,7 +23,6 @@ else:
 
 @Client.on_message(filters.private & filters.command(["start"]))
 async def start(client,message):
-        ("PICS", "https://telegra.ph/file/63c8db2d4deb1b0cb6c8f.jpg")
 	insert(int(message.chat.id))
 	await message.reply_text(text =f"""
 	{wish} {message.from_user.mention}
